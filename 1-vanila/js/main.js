@@ -2,6 +2,7 @@ import Controller from "./Controller.js";
 import Store from "./Store.js";
 import storage from "./storage.js";
 import SearchFormViews from "./views/SearchFormView.js";
+import SearchResultView from "./views/SearchResultView.js";
 
 document.addEventListener("DOMContentLoaded", main);
 
@@ -13,8 +14,8 @@ function main() {
   const store = new Store(storage);
 
   const views = {
-    // element, resetElement, originalDisplay
     searchFormView: new SearchFormViews(),
+    searchResultView: new SearchResultView(),
   };
 
   new Controller(store, views);

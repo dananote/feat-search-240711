@@ -12,7 +12,7 @@ export default class SearchFormViews extends View {
      * super는 상위요소의 constructor에 넘겨주는건가?
      * 여기서는 View 클래스의 element에 전달
      **/
-    super(qs("#search-form-view"));
+    super(qs("#search-form-view")); // this.element에 저장
 
     // 두번째 인자로 전달하는 것은 scope로 선택할 범위 선택
     this.inputElement = qs("[type=text]", this.element);
