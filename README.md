@@ -1,4 +1,7 @@
 # feat-search-240711
+똑같은 검색 기능을 바닐라 JS와 react로 비교하며 구현
+
+[출처: 김정환블로그](https://jeonghwan-kim.github.io/series/2021/04/05/lecture-react-ready.html#%EC%8B%A4%EC%8A%B5-%ED%99%98%EA%B2%BD-%EA%B5%AC%EC%84%B1)
 
 # 요구 사항 분석
 
@@ -26,3 +29,13 @@
 - 목록에서 검색어를 클릭하면 선택된 검색어로 검색 결과 화면으로 이동한다.
 - 목록에서 X 버튼을 클릭하면 선택된 검색어가 목록에서 삭제된다.
 - 검색시마다 최근 검색어 목록에 추가된다.
+
+
+---
+
+# Vanila
+
+```
+// node로 만든 module 실행 명령어 (폴더 지정하지 않아도 됨)
+npx lite-server --baseDir 1-vanila/
+```
